@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="2.5" type="plugin" group="jea" method="upgrade">
+	<name>JEA - Joomfish</name>
+	<author>Sylvain Philip</author>
+	<creationDate>March 2013</creationDate>
+	<copyright>Copyright (C) 2013 Sylvain Philip.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@sphilip.com</authorEmail>
+	<authorUrl>www.sphilip.com</authorUrl>
+	<version>1.0</version>
+	<description>This plugin give the ability to translate JEA content with Joomfish.</description>
+
+	<scriptfile>install.php</scriptfile>
+
+	<files>
+		<filename plugin="joomfish">joomfish.php</filename>
+		<folder>contentelements</folder>
+	</files>
+
+	<params />
+</install>
